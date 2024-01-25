@@ -60,5 +60,5 @@ while True:
     # Oppdaterer stillngen på kartet
     iss.goto(lon, lat)
 
-    # Oppdaterer hvert 5 sekund
-    time.sleep(5)
+    # Oppdaterer hvert sekund
+    time.sleep(1)
